@@ -19,6 +19,13 @@ public class Persona {
 		this.edad = edad;
 	}
 
+	/**
+	 * Constructor que recibe tres parámetros
+	 * 
+	 * @param nombre
+	 * @param edad
+	 * @param direccion
+	 */
 	public Persona(String nombre, int edad, String direccion) {
 		this.nombre = nombre;
 		this.edad = edad;
@@ -27,6 +34,17 @@ public class Persona {
 
 	private void calculo() {
 
+	}
+
+	/**
+	 * 
+	 * @param nombre
+	 * @param calle
+	 * @param direccion
+	 * @return
+	 */
+	public String comprobarDireccion(String nombre, String calle, String direccion) {
+		return nombre + "" + calle + " " + direccion;
 	}
 
 	@Override
