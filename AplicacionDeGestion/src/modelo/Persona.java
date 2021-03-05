@@ -44,7 +44,10 @@ public class Persona {
 	 * @return
 	 */
 	public String comprobarDireccion(String nombre, String calle, String direccion) {
-		return nombre + "" + calle + " " + direccion;
+
+		String devuelve = nombre + "" + calle + " " + direccion;
+
+		return devuelve;
 	}
 
 	@Override
