@@ -1,5 +1,9 @@
 package controlador;
 
+import java.util.ArrayList;
+
+import modelo.Persona;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -10,10 +14,15 @@ public class Main {
 		
 		String pepe= new String();
 		
+		Persona manuelPersona = new Persona(); 
+		
+		ArrayList<String> lista= new ArrayList<String>(); 
+		
+		lista.add("Manueh"); 
+		
+		System.out.println(lista.toString());
 		
 		
-		
-
 	}
 
 }
